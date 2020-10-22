@@ -1,3 +1,22 @@
+/*
+PRACTICA 8 - “CALCULADORA ARITMÉTICA DE 2 DÍGITOS”
+EQUIPO V 
+8H1 - ELECTRONICA DIGITAL V
+DAVID MADRID NAPOLES 17100201
+CARLOS CAMACHO MATA 17100057
+HECTOR SAMUEL RIVERA RUIZ 17100287
+20/10/2020
+
+Al comenzar el programa la LCD muestra la señalización base (nombres, registros,
+grupo, etc.), después la LCD solicita la velocidad la velocidad ascendente 
+(200-900ms) del contador (0-99), en el teclado matricial, se presiona y soltar
+* para comenzar el conteo hasta el 99, al presionar y soltar *se interrumpe la
+cuenta y regresa a velocidad, al presionar y soltar A se guarda el valor de la
+cuenta y lo muestra por 1s, al presionar y soltar D muestra el ultimo valor 
+guardado por 1s, al resetear comienza la cuenta desde el ultimo valor guardado.
+
+*/
+
 #INCLUDE <16F887.H>
 #USE DELAY(CLOCK=4000000)
 #FUSES INTRC_IO,NOWDT,NOPUT,MCLR,NOPROTECT,NOCPD,NOBROWNOUT
